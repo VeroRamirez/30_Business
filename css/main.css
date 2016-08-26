@@ -29,6 +29,7 @@ nav.navbar{
 }
 .nombre{
 	max-width: 30%;
+
 }
 .video{
 	width: 90%;
@@ -36,4 +37,10 @@ nav.navbar{
 }
 .img2{
 	width: 90%;
+}
+.back-footer{
+	background: black;
+}
+.back-prueba{
+	background: rgb(75,155,213);
 }
