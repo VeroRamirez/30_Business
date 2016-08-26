@@ -33,7 +33,7 @@
 									        <li><a href="#seccion1">¿Qué me ofrece?</a></li>
 									        <li><a href="#seccion2">¿Cómo funciona?</a></li>
 									        <li><a href="#seccion3">¿Por qué usarlo?</a></li>
-									        <li><a href="#seccion4">Contactos</a></li>
+									        <li><a data-toggle="modal" href="#myModal">Contactos</a></li>
 									    </ul>
 									</div>
 							</nav>
@@ -41,13 +41,13 @@
 								<h2>Obtén videos de personas reales<br>utilizando tu sitio web, en 1 Hora</h2>
 							</div>
 						</div>
-						<div class="row back2">
+						<div class="row back2 pd-header mg-header">
 							<div class="col-xs-6 text-right">
 								<h3>PRUEBA GRATUITA</h3>
 								<p>Obten un video gratis de 5 minutos</p>
 							</div>
 							<div class="col-xs-6">
-								<button class="btn btn-default">
+								<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
 									Pruebalo gratis
 								</button>
 							</div>
@@ -65,17 +65,18 @@
 			</div>
 			<div class="row text-center">
 				<div class="col-xs-12 col-sm-4">
-					<span class="fa fa-bank"></span>
+					<div><span class="icon icon-video img-circle"></span></div>
+					
 					<p>Pruebalo <br>gratis</p>
 					<p>Obten un primer video screencast de un<br>usuario navegando tu página</p>
 				</div>
 				<div class="col-xs-12 col-sm-4">
-					<span class="fa fa-bank"></span>
+					<span class="icon icon-clock img-circle"></span>
 					<p>Pruebalo <br>gratis</p>
 					<p>Si te gustó comprar nuestro servicio<br>completo que incluye 7 videos y feedback</p>
 				</div>
 				<div class="col-xs-12 col-sm-4">
-					<span class="fa fa-bank"></span>
+					<span class="icon icon-documents img-circle"></span>
 					<p>Pruebalo <br>gratis</p>
 					<p>Te haremos llegar los videos y el feedback<br>completo el mismo dia</p>
 				</div>
@@ -97,22 +98,22 @@
 					<p class="text-justify">El objetivo de User Testing 360 es identificar confusas de los usuarios en su sitio web y describir soluciones, que garanticen una experiencia de uso satisfacotria</p>
 					<img src="image/flecha.png" alt="flecha">
 				</div>
-				<div class="col-xs-12 col-sm-6">
+				<div class="col-xs-12 col-sm-6 text-center">
 					<iframe src="https://www.youtube.com/embed/95kisnKdJwo" frameborder="0" allowfullscreen class="video"></iframe>
 				</div>
 			</div>
 			<hr>
 			<div class="row">
-				<div class="col-xs-6">
+				<div class="col-xs-11 col-sm-6 text-center">
 					<img src="image/sec-2.jpg" alt="computadora" class="img2">
 				</div>
 				<div class="col-1">
-					<span class="fa fa-envelope"></span>
-					<span class="fa fa-envelope"></span>
-					<span class="fa fa-envelope"></span>
-					<span class="fa fa-envelope"></span>
+					<span class="icon-video"></span>
+					<span class="icon-video"></span>
+					<span class="icon-video"></span>
+					<span class="icon-video"></span>
 				</div>
-				<div class="col-xs-5">
+				<div class="col-xs-12 col-sm-5">
 					<h3>Lo quiero </h3>
 					<p>
 						<h4>Paso 1: envianos tu link</h4>
@@ -139,13 +140,13 @@
 		<!--Seccion porque usar-->
 		<section id="seccion3">
 			<div class="row">
-				<div class="col-xs-6 text-center">
+				<div class="col-xs-12 col-sm-6 text-center">
 					<h2 class="inline">Ejemplo de</h2>
 					<img src="image/logo-2.jpg" alt="logo" class="inline nombre">
 					<p class="text-justify">En este video t damos un ejemplo de un integrante de nuestro panel evaluando<br> la experiencia de usa de<br><a href="#">mimediamanzana.com</a></p>
 					<p class="text-justify">El objetivo de User Testing 360 es identificar confusas de los usuarios en su sitio web y describir soluciones, que garanticen una experiencia de uso satisfacotria</p>
 				</div>
-				<div class="col-xs-6">
+				<div class="col-xs-12 col-sm-6 text-center">
 					<img src="image/banner.jpg" alt="computadora" class="img2">
 				</div>
 			</div>
@@ -177,6 +178,52 @@
 				</div>
 			</div>
 		</footer>
+
+
+</div>
+
+		<!-- Modal -->
+		<div class="container">
+			<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h2>Formulario User Testing 360</h2>
+						</div>
+						<div class="modal-body">
+							<form action="#" class="form-horizontal">
+								<div class="form-group">
+									<label for="nombre" class="col-xs-4 control-label">Nombre: *</label>
+									<div class="col-xs-8">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="email" class="col-xs-4 control-label">Email: *</label>
+									<div class="col-xs-8">
+										<input type="email" class="form-control">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="nombre" class="col-xs-4 control-label">Dejame tu url: *</label>
+									<div class="col-xs-8">
+										<textarea class="form-control"></textarea>
+									</div>
+								</div>
+								<div class="form-group text-center">
+									<button class="btn-info">Enviar correo</button>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- Incluir todos tus scripts apartir de este punto -->
 	    <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->

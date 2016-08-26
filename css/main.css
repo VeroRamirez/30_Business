@@ -24,6 +24,9 @@ nav.navbar{
 .pd-header{
 	padding:0px !important;
 }
+.mg-header{
+	margin:0px !important;
+}
 .inline{
 	display: inline;
 }
@@ -43,4 +46,13 @@ nav.navbar{
 }
 .back-prueba{
 	background: rgb(75,155,213);
+}
+.icon{
+	color:rgb(75,155,213);
+	font-size: 3em;
+	padding:12%;
+	box-shadow:3px 3px 9px #999;
+}
+.block{
+	display:block;
 }
