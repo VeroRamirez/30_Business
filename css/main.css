@@ -24,3 +24,16 @@ nav.navbar{
 .pd-header{
 	padding:0px !important;
 }
+.inline{
+	display: inline;
+}
+.nombre{
+	max-width: 30%;
+}
+.video{
+	width: 90%;
+	height: 300px;
+}
+.img2{
+	width: 90%;
+}
