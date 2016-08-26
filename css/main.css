@@ -1,0 +1,26 @@
+nav.navbar{
+	background: transparent;	
+	border: transparent;
+}
+.jumbotron{
+	background: transparent;	
+	border: transparent;
+}
+.back0{
+	background-image: url("../image/large.jpg");
+	background-size: cover;
+	height: 600px;
+}
+.back1{
+	max-width: 100%;
+	background: rgba(0,0,0,0.5);
+	height: 70%;
+}
+.back2{
+	max-width: 100%;
+	background: rgba(75,155,213,0.5);
+	height: 30%;
+}
+.pd-header{
+	padding:0px !important;
+}
